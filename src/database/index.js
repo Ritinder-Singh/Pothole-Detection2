@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
-// const mongo_url = "mongodb+srv://admin:admin@cluster0.rysalpm.mongodb.net/?retryWrites=true&w=majority";
-const mongo_url = "";
+const mongo_url = "mongodb+srv://admin:admin@cluster0.rysalpm.mongodb.net/?retryWrites=true&w=majority";
+// const mongo_url = "";
 
  const connectToDB = async () => {
   try {
